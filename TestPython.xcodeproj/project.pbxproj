@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		9A1167381F1A491900B49153 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
+		9A1167391F1B03DC00B49153 /* MyRead.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = MyRead.py; sourceTree = "<group>"; };
 		9A1CB92C1EFBF3EA00D2F871 /* TestPython.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = TestPython.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -15,6 +17,8 @@
 			isa = PBXGroup;
 			children = (
 				9A1CB92C1EFBF3EA00D2F871 /* TestPython.py */,
+				9A1167391F1B03DC00B49153 /* MyRead.py */,
+				9A1167381F1A491900B49153 /* test.txt */,
 			);
 			sourceTree = "<group>";
 		};
@@ -194,6 +198,7 @@
 				9A1CB92B1EFBF1B600D2F871 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
