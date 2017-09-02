@@ -1,13 +1,16 @@
 import sys
 import logging
-
+import sum2
 import numpy as np
 import matplotlib.pyplot as plt
 
 print "Hello, world!"
 
-line = input("integer: ")
-print("line = ", line)
+#line = input("integer: ")
+#print("line = ", line)
+
+''' Practice invoke function from another script'''
+sum2.test_invoke()
 
 #MyWrite = open('test.txt','w')
 #MyWrite.write('No more check')
