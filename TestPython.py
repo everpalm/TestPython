@@ -1,8 +1,11 @@
 import sys
 import logging
-import sum2
 import numpy as np
 import matplotlib.pyplot as plt
+import sum2
+import MyRead
+import random
+import digit_names.py
 
 print "Hello, world!"
 
@@ -10,7 +13,16 @@ print "Hello, world!"
 #print("line = ", line)
 
 ''' Practice invoke function from another script'''
-sum2.test_invoke()
+sum2.test_invoke('Jaron','Anny')
+MyRead.test_read_file()
+
+''' Practice invoke random function'''
+x = random.randint(1,100)
+print('x = {}'.format(x))   # CTJ170910 Notice the format of print command
+
+Language = "en"
+
+
 
 #MyWrite = open('test.txt','w')
 #MyWrite.write('No more check')
