@@ -5,24 +5,40 @@ import matplotlib.pyplot as plt
 import sum2
 import MyRead
 import random
-import digit_names.py
 
-print "Hello, world!"
+#print "Hello, world!"
 
 #line = input("integer: ")
 #print("line = ", line)
 
+#logging.basicConfig(level = logging.DEBUG)
+#logging.basicConfig(level = logging.INFO)
+#logging.basicConfig(level = logging.WARNING)
+#logging.basicConfig(level = logging.ERROR)
+logging.basicConfig(level = logging.CRITICAL)
+test_logger = logging.getLogger(__name__)
 ''' Practice invoke function from another script'''
+'''
 sum2.test_invoke('Jaron','Anny')
 MyRead.test_read_file()
+'''
 
 ''' Practice invoke random function'''
+'''
 x = random.randint(1,100)
 print('x = {}'.format(x))   # CTJ170910 Notice the format of print command
+'''
 
-Language = "en"
+''' Practice starred argument'''
+MyRead.product(2, 3, 5)
 
 
+''' Practice logging message'''
+test_logger.debug("Display debug message")
+test_logger.info("Display log information")
+test_logger.warning("Display warning")
+test_logger.error("Display error message")
+test_logger.critical("Display critical information")
 
 #MyWrite = open('test.txt','w')
 #MyWrite.write('No more check')

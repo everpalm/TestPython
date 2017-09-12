@@ -11,12 +11,16 @@
 		9A1167391F1B03DC00B49153 /* MyRead.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = MyRead.py; sourceTree = "<group>"; };
 		9A1CB92C1EFBF3EA00D2F871 /* TestPython.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = TestPython.py; sourceTree = SOURCE_ROOT; };
 		9A207E481F5A8B59003181A9 /* sum2.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = sum2.py; sourceTree = "<group>"; };
+		9AA0C0D61F66E4A30000DB06 /* test.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.csv; sourceTree = "<group>"; };
+		9AA0C0D71F66E4A30000DB06 /* test.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = test.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		9A1CB9211EFBF1B500D2F871 = {
 			isa = PBXGroup;
 			children = (
+				9AA0C0D61F66E4A30000DB06 /* test.csv */,
+				9AA0C0D71F66E4A30000DB06 /* test.py */,
 				9A1CB92C1EFBF3EA00D2F871 /* TestPython.py */,
 				9A1167391F1B03DC00B49153 /* MyRead.py */,
 				9A1167381F1A491900B49153 /* test.txt */,
